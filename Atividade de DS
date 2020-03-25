@@ -96,7 +96,6 @@ class Filme7{
 	}
 }
 
-Filme1.exibirDuracaoEmHoras();
 
 
 
