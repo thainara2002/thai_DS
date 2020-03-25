@@ -1,0 +1,161 @@
+class Filme1{
+	String nome;
+	int duracaoEmMinutos;
+	double duracaoEmHoras;
+
+		double exibirDuracaoEmHoras(){
+			
+			duracaoEmHoras= duracaoEmMinutos / 60;
+			
+			return duracaoEmHoras;	
+	}
+}
+
+
+class Filme2{
+	String nome;
+	int duracaoEmMinutos;
+	double duracaoEmHoras;
+
+		double exibirDuracaoEmHoras(){
+			
+			duracaoEmHoras= duracaoEmMinutos / 60;
+			
+			return duracaoEmHoras;	
+	}
+}
+
+
+
+class Filme3{
+	String nome;
+	int duracaoEmMinutos;
+	double duracaoEmHoras;
+
+		double exibirDuracaoEmHoras(){
+			
+			duracaoEmHoras= duracaoEmMinutos / 60;
+			
+			return duracaoEmHoras;	
+	}
+}
+
+
+class Filme4{
+	String nome;
+	int duracaoEmMinutos;
+	double duracaoEmHoras;
+
+		double exibirDuracaoEmHoras(){
+			
+			duracaoEmHoras= duracaoEmMinutos / 60;
+			
+			return duracaoEmHoras;	
+	}
+}
+
+
+class Filme5{
+	String nome;
+	int duracaoEmMinutos;
+	double duracaoEmHoras;
+
+		double exibirDuracaoEmHoras(){
+			
+			duracaoEmHoras= duracaoEmMinutos / 60;
+			
+			return duracaoEmHoras;	
+	}
+}
+
+
+class Filme6{
+	String nome;
+	int duracaoEmMinutos;
+	double duracaoEmHoras;
+
+		double exibirDuracaoEmHoras(){
+			
+			duracaoEmHoras= duracaoEmMinutos / 60;
+			
+			return duracaoEmHoras;	
+	}
+}
+
+
+class Filme7{
+	String nome;
+	int duracaoEmMinutos;
+	double duracaoEmHoras;
+
+		double exibirDuracaoEmHoras(){
+			
+			duracaoEmHoras= duracaoEmMinutos / 60;
+			
+			return duracaoEmHoras;	
+	}
+}
+
+Filme1.exibirDuracaoEmHoras();
+
+
+
+public class Principal{
+	public static void main(string[]args){
+
+	Filme1 filme1 = new Filme1();
+
+	Filme1.nome="Os Vingadores";
+	Filme1.duracaoEmMinutos=142;
+
+
+
+	Filme2 filme2 = new Filme2();
+
+	Filme2.nome="Hotel Trensilvania";
+	Filme2.duracaoEmMinutos=94;
+
+
+
+	Filme3 filme3 = new Filme3();
+
+	Filme3.nome="Thayani e seus amiguinhos";
+	Filme3.duracaoEmMinutos=122;
+
+
+
+	Filme4 filme4 = new Filme4();
+
+	Filme4.nome="Homem Aranha";
+	Filme4.duracaoEmMinutos=80;
+
+
+
+	Filme5 filme5 = new Filme5();
+
+	Filme5.nome="A menina que roubava livros";
+	Filme5.duracaoEmMinutos=100;
+
+
+	Filme6 filme6 = new Filme6();
+
+	Filme6.nome="Capitão America";
+	Filme6.duracaoEmMinutos=153;
+
+
+	Filme7 filme7 = new Filme7();
+
+	Filme7.nome="Quarto De Guerra";
+	Filme7.duracaoEmMinutos=135;
+
+
+		System.out.println("Os filmes em cartaz é" +Filme1.nome" , "+Filme2.nome " , " +Filme3.nome " , " +Filme4.nome " , " +Filme5.nome " , " +Filme6.nome " e " +Filme7.nome)
+		System.out.println("A duraçao desses filmes é: FILME1: "+Filme1.duracaoEmHoras);
+		System.out.println("FILME2: "+Filme2.duracaoEmHoras);
+		System.out.println("FILME3: "+Filme3.duracaoEmHoras);
+		System.out.println("FILME4: "+Filme4.duracaoEmHoras);
+		System.out.println("FILME5: "+Filme5.duracaoEmHoras);
+		System.out.println("FILME6: "+Filme6.duracaoEmHoras);
+		System.out.println("FILME7: "+Filme7.duracaoEmHoras);
+		
+}
